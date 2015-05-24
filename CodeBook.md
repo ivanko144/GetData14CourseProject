@@ -2,11 +2,13 @@
 
 
 Variables
-, the data, and any transformations or work that you performed to clean up the data 
-
 
 "activityName" 
+	One of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed one of 30 subjects
+
 "subjectCode" 
+	Subject identifier
+
 "tBodyAcc.mean...X" 
 "tBodyAcc.mean...Y" 
 "tBodyAcc.mean...Z" 
@@ -86,3 +88,25 @@ Variables
 "fBodyBodyAccJerkMag.std.." 
 "fBodyBodyGyroMag.std.." 
 "fBodyBodyGyroJerkMag.std.."
+
+ 	Two sets of the feature vector (33 variables for mean() and 33 variables for std() estimations). Pattern '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions (-XYZ consist of 3 variables X,Y,Z).
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+More information can be found in 'features_info.txt' file in HAR dataset directory. 

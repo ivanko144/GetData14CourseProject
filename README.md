@@ -3,6 +3,8 @@
 Script works with Human Activity Recognition (HAR) Dataset.
 Scripts groups data in HAR dataset (by activity and subject) and aggregate it (by mean).
 
+Script tested on Windows 7 system with RStudio Version 0.98.1103
+
 Dataset directory (UCI HAR Dataset) should be placed into working directory.
 Script (run_analysis.R) should be placed into the same directory.
 

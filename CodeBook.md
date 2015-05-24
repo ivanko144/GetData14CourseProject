@@ -1,16 +1,16 @@
 
-Variables
+
+#Code book
 
 "activityName"
-
-	One of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed one of 30 subjects
+	One of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 "subjectCode"
-
 	Subject identifier
 	
 	Two sets of the feature vector (33 variables for mean() and 33 variables for std() estimations).
-	Each estimation prepared for each of X, Y and Z directions.
+	All features are normalized and bounded within [-1,1].
+	All features represent average of each variable for each activity and each subject.
 	More information can be found in 'features_info.txt' file in HAR dataset directory. 
 
 "tBodyAcc.mean...X"

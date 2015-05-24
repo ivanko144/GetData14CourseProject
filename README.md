@@ -8,22 +8,12 @@ Script (run_analysis.R) should be placed into the same directory.
 
 Script performs following actions with files in HAR dataset directory: 
 
-1. Load test and train data sets and label them with descriptive variable names (features).
-- 'features.txt': List of all features.
-- 'train/X_train.txt': Train set.
-- 'test/X_test.txt': Test set.
+1. Load test and train data sets and label them with descriptive variable names (features). File 'features.txt' contains List of all features. File 'train/X_train.txt' contains Train set. File 'test/X_test.txt' contains Test set.
 
 
-2. Load activity code for each observation and merge codes with descriptive activity names
-'activity_labels.txt': Links the class labels with their activity name.
-- 'test/y_test.txt': Test labels. (activties)
-- 'train/y_train.txt': Train labels. (activties)
+2. Load activity code for each observation and merge codes with descriptive activity names. File 'activity_labels.txt' contains Links the class labels with their activity name. File 'test/y_test.txt' contains Test labels. (activties). File 'train/y_train.txt' contains Train labels. (activties)
 
-3. Load subject code for each observation
-- 'train/subject_train.txt'
-- 'test/subject_test.txt'
- Each row identifies the subject who performed the activity for each window sample.
- Its range is from 1 to 30. 
+3. Load subject code for each observation. Files 'train/subject_train.txt' and 'test/subject_test.txt'. Each row identifies the subject who performed the activity for each window sample. Subject code range is from 1 to 30. 
 
 4. Compose total dataset (from datasets prepared at steps 1-3)
 
